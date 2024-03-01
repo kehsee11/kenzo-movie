@@ -1,0 +1,11 @@
+.results > div {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: linear-gradient(to right, #051421, #39ecec );
+    justify-content: center;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    
+
+}

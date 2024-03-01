@@ -1,0 +1,14 @@
+.footer{
+    justify-content: center;
+    margin: auto;
+    color: white;
+    position: sticky;
+    bottom: 0;
+    padding: 20px;
+    background-image: linear-gradient(to right, #051421, #39ecec );
+border-top: 0.1px solid lightgrey;
+}
+.footer > h2 {
+    text-align: center;
+    font-size: medium;
+}

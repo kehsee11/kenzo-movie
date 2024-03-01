@@ -1,0 +1,80 @@
+.header{
+   position: sticky;
+     top: 0;
+    display: flex;
+    color:white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+background-image: linear-gradient(to right, #051421, #39ecec );
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.header::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .header{
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+.header > img{
+    object-fit: contain;
+    height: 80px;
+    margin-right: 40px;
+}
+.header__icons{
+    display: flex;
+    text-align: center;
+    
+
+}
+.header__icon{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    width: 100px
+
+}
+.header__icon > .MuiSvgIcon-root{
+margin-left: auto;
+margin-right: auto;
+}
+.header__icon > p{
+    display: none;
+    text-transform: uppercase;
+   letter-spacing: 3px;
+   margin-left: auto;
+   margin-right: auto;font-size: small;
+   
+}
+.header__icon:hover > p{
+    display: inline;
+}
+.header__icon--active > p{
+    display: inline-flex !important;
+}
+.header__search{
+    display: flex;
+    height: 40px;
+  flex: 0.5;
+  padding: 10px;  
+    margin-left: 40px;
+  align-items: center;
+  background-color:aquamarine ;
+  color: black;
+  letter-spacing: 3px;
+  font-size: medium;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+ .header__search > input{
+     background-color: aquamarine;
+outline: none;
+border:none;
+color: black!important;
+font-size: larger;
+font-weight: 700;
+
+}
